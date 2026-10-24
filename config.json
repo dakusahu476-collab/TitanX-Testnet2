@@ -1,16 +1,17 @@
-
 {
   "dry_run": false,
-  "max_wallets": 1,
-  "max_trades_per_wallet": 1,
+  "max_wallets": 3,
+  "max_trades_per_wallet": 15,
   "max_entry_attempts": 5,
   "stop_on_wallet_error": true,
   "claim_faucet": false,
-  "timed_exit_seconds": 45,
+  "timed_exit_seconds": 30,
   "pairs": {
     "BTC-USDCX": true,
-    "ETH-USDCX": false,
+    "ETH-USDCX": true,
     "SOL-USDCX": false,
     "CC-USDCX": false
-  }
+  },
+  "min_profit_percent": 0.0001,
+  "min_loss_percent": 0.0001
 }
