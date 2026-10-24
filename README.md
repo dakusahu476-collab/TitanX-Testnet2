@@ -95,6 +95,7 @@ cd TitanX-Testnet
 
 ```bash
 pip install -r requirements.txt
+python -m pip install cryptography curl_cffi eth-account
 ```
 
 ---
@@ -132,6 +133,7 @@ The first line is used for the run, and proxy credentials are masked in the log 
 ## Running the Bot
 
 ```bash
+python -m py_compile bot.py
 python bot.py
 ```
 
